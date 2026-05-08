@@ -1,6 +1,6 @@
 {
   "name": "os-locale",
-  "version": "3.1.0-lineaje-01",
+  "version": "3.1.5-lineaje-01",
   "description": "Get the system locale",
   "license": "MIT",
   "contributors": [
@@ -50,5 +50,11 @@
     "ava": "^1.0.1",
     "import-fresh": "^3.0.0",
     "xo": "^0.23.0"
+  },
+  "overrides": {
+    "tar": ">=4.4.19"
+  },
+  "resolutions": {
+    "tar": ">=4.4.19"
   }
 }
